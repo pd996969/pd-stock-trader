@@ -58,7 +58,7 @@ dependencies = [
     # 4.0.0 changed MCPError's constructor (message is now separate) and the
     # session snapshot shape; tests construct it the 2.x way. Cap until the
     # adaptation lands.
-    "fastmcp>=2.14.0,<4.0.0",
+    "fastmcp>=2.14.0,<5.0.0",
     # mcp 1.30.0 enforces RFC 8414 section 3.3 strictly: the `issuer` in an
     # authorization server's metadata must equal the issuer used to build the
     # well-known URL. IBKR's official MCP server advertises the authorization
